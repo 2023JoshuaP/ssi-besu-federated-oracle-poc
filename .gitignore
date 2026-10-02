@@ -1,0 +1,29 @@
+# Runtime configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Python environments and generated files
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Test and benchmark output (selectively publish reviewed results in docs/)
+results/*.json
+results/*.csv
+results/*.log
+
+# Logs and local tooling
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~

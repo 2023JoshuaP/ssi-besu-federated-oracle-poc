@@ -1,0 +1,5 @@
+eth-account==0.9.0
+httpx==0.25.0
+python-dotenv==1.1.1
+setuptools<82
+web3==6.10.0
