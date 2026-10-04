@@ -1,0 +1,62 @@
+[
+  {
+    "experiment_id": "A",
+    "alternative": "Django 3-of-5",
+    "level": "A-P4",
+    "block": 1,
+    "requests": 100,
+    "concurrency": 50,
+    "successful": 100,
+    "errors": 0,
+    "fixture_preparation_ms": 48913.199,
+    "measured_elapsed_seconds": 25.142,
+    "throughput_rps": 3.9773,
+    "latency_ms": {
+      "p50": 10026.227,
+      "p95": 14934.488,
+      "p99": 14994.033,
+      "stddev": 3431.249
+    },
+    "gas_mean": 335120.64
+  },
+  {
+    "experiment_id": "A",
+    "alternative": "Django 3-of-5",
+    "level": "A-P4",
+    "block": 2,
+    "requests": 100,
+    "concurrency": 50,
+    "successful": 100,
+    "errors": 0,
+    "fixture_preparation_ms": 49403.979,
+    "measured_elapsed_seconds": 25.111,
+    "throughput_rps": 3.9823,
+    "latency_ms": {
+      "p50": 9978.793,
+      "p95": 14957.491,
+      "p99": 14979.03,
+      "stddev": 3476.631
+    },
+    "gas_mean": 335123.28
+  },
+  {
+    "experiment_id": "A",
+    "alternative": "Django 3-of-5",
+    "level": "A-P4",
+    "block": 3,
+    "requests": 100,
+    "concurrency": 50,
+    "successful": 100,
+    "errors": 0,
+    "fixture_preparation_ms": 49191.985,
+    "measured_elapsed_seconds": 25.12,
+    "throughput_rps": 3.9808,
+    "latency_ms": {
+      "p50": 10009.666,
+      "p95": 15015.932,
+      "p99": 15044.09,
+      "stddev": 3479.285
+    },
+    "gas_mean": 335125.8
+  }
+]

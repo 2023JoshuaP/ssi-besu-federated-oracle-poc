@@ -1,0 +1,62 @@
+[
+  {
+    "experiment_id": "A",
+    "alternative": "Trusted Verifier 1-of-1",
+    "level": "A-P2",
+    "block": 1,
+    "requests": 100,
+    "concurrency": 10,
+    "successful": 100,
+    "errors": 0,
+    "fixture_preparation_ms": 48772.475,
+    "measured_elapsed_seconds": 50.017,
+    "throughput_rps": 1.9993,
+    "latency_ms": {
+      "p50": 4974.268,
+      "p95": 5079.514,
+      "p99": 5129.334,
+      "stddev": 75.404
+    },
+    "gas_mean": 318033.76
+  },
+  {
+    "experiment_id": "A",
+    "alternative": "Trusted Verifier 1-of-1",
+    "level": "A-P2",
+    "block": 2,
+    "requests": 100,
+    "concurrency": 10,
+    "successful": 100,
+    "errors": 0,
+    "fixture_preparation_ms": 49189.454,
+    "measured_elapsed_seconds": 49.999,
+    "throughput_rps": 2.0,
+    "latency_ms": {
+      "p50": 4972.19,
+      "p95": 5109.492,
+      "p99": 5164.949,
+      "stddev": 82.735
+    },
+    "gas_mean": 318035.68
+  },
+  {
+    "experiment_id": "A",
+    "alternative": "Trusted Verifier 1-of-1",
+    "level": "A-P2",
+    "block": 3,
+    "requests": 100,
+    "concurrency": 10,
+    "successful": 100,
+    "errors": 0,
+    "fixture_preparation_ms": 49112.939,
+    "measured_elapsed_seconds": 50.04,
+    "throughput_rps": 1.9984,
+    "latency_ms": {
+      "p50": 4965.374,
+      "p95": 5177.251,
+      "p99": 5233.72,
+      "stddev": 110.299
+    },
+    "gas_mean": 318034.12
+  }
+]

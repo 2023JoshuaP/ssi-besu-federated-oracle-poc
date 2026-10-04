@@ -20,6 +20,9 @@ results/*.jsonl
 results/*.csv
 results/*.log
 results/figures/
+# Curated, reproducible evidence selected for the paper is versioned.
+!results/paper/
+!results/paper/**
 logs/
 .scenario.env
 
