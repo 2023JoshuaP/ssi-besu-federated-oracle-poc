@@ -16,8 +16,12 @@ htmlcov/
 
 # Test and benchmark output (selectively publish reviewed results in docs/)
 results/*.json
+results/*.jsonl
 results/*.csv
 results/*.log
+results/figures/
+logs/
+.scenario.env
 
 # Logs and local tooling
 *.log
